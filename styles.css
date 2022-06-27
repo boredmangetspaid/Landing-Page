@@ -159,6 +159,9 @@ header>ul>li>a {
     gap: 4 em;
     border-radius:8px;
 }
+.container{
+    padding:4em;
+}
 .call-btn{
     color:white;
     background-color: #3882F6;
