@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 
-
+/*helper classes to color the background*/
 .container-blue {
     background-color: #1F2937;
     @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
@@ -18,6 +18,8 @@
     background-color: #e5e7EB;
 
 }
+
+/* helper class to push content to the middle*/
 
 .inside {
     width: 75%;
@@ -59,10 +61,6 @@ header>ul>li>a {
 
 }
 
-.herotext {
-    width: 50%;
-}
-
 .herotext h1 {
     font-size: 48px;
     font-weight: bold;
@@ -73,6 +71,7 @@ header>ul>li>a {
 .herotext h3 {
     color: #E5E7EB;
     font-size: 18px;
+    font-weight:lighter;
 }
 
 .herotext button {
