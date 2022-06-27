@@ -1,17 +1,29 @@
-.container {
-    width:75%;
-    margin-right:auto;
-    margin-left:auto;
+*{
+    font-family: 'Roboto', sans-serif;
+    margin:0;
 }
+
 header{
-    display:flex;
+    background-color: #1F2937;
+    color:white;
     font-size:24px;
-    font-weight: bold;
+    font-weight: 900;
+    display:flex;
     align-items: center;
     justify-content: space-between;
+    padding-left: 7em;
+    padding-right: 7em;
+    padding-bottom: 1em;
+    padding-top:1em;
 }
 header >ul>li {
+    display:inline-block;
     list-style: none;
     font-size: 16px;
-    display:inline-block;
+}
+header >ul>li>a {
+    color: white;
+    text-decoration: none;
+    margin:10px;
+    
 }
